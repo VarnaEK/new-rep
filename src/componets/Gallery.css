@@ -1,0 +1,25 @@
+.img-card{
+    padding: 15px;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0,0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    /* float: left; */
+}
+.img-card:hover{
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.2) ;
+}
+.img-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.card-div{
+    float: left;
+    /* padding: 30px; */
+    align-items: center;
+    margin: 45px;
+}
